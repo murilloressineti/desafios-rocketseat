@@ -15,10 +15,12 @@
 
     --color-01: rgba(187, 153, 221, 0.08);
     --color-02: #BB99DD;
+    --color-03: rgba(171, 144, 199, 0.08);
 }
 
-body {
+body, a {
     color: var(--color-02);
+    text-decoration: none;
 }
 
 .content {
@@ -33,6 +35,13 @@ body {
     border: 0.2rem solid var(--color-02);
     border-radius: 50%;
     padding: 0.5rem;
+
+    transition:200ms ease-out;
+}
+
+.profile img:hover {
+    filter: brightness(0.7);
+    cursor: pointer;
 }
 
 .profile p {
@@ -53,11 +62,6 @@ ul {
     margin-top: 3.3rem;
 }
 
-ul a {
-    color: var(--color-02);
-    text-decoration: none;
-}
-
 li {
     font-size: 1.6rem;
     font-weight: 600;
@@ -70,6 +74,12 @@ li {
     height: 4.9rem;
     border: 0.2rem solid var(--color-02);
     border-radius: 0.4rem;
+
+    transition: all 200ms ease-out;
+}
+
+li:hover {
+    background: var(--color-03);
 }
 
 .icons {
@@ -78,4 +88,8 @@ li {
     gap: 2.9rem;
 
     margin-top: 6.8rem;
+}
+
+.icons a:hover {
+    transform: scale(1.1);
 }
