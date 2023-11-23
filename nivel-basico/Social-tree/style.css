@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+
+    --color-base-black: black;
+    --color-base-white: white;
+
+    --color-01: rgba(187, 153, 221, 0.08);
+    --color-02: #BB99DD;
+}
+
+body {
+    color: var(--color-02);
+}
+
+.content {
+    width: 100%;
+    padding: 12rem 4.4rem 15rem;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.profile img {
+    width: 21.3rem;
+    border: 0.2rem solid var(--color-02);
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.profile p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    
+    margin-top: 1.5rem;
+}
+
+ul {
+    list-style: none;
+
+    margin-top: 3.3rem;
+}
+
+li {
+    border: 2px solid black;
+}
+
+li a {
+    color: var(--color-02);
+    text-decoration: none;
+}
+
+.icons {
+    margin-top: 6.8rem;
+
+    display: flex;
+    justify-content: center;
+    gap: 2.9rem;
+}
