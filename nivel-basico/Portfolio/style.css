@@ -20,3 +20,46 @@
     --color-05: #00FF00;
     --color-bg: #22212C;
 }
+
+body {
+    color: var(--color-02);
+    background-color: var(--color-bg);
+
+    display: grid;
+    justify-content: center;
+    padding: 4rem 4rem 0rem 4rem;
+}
+
+#app {
+    border: 2px solid red;
+
+    display: grid;
+    grid-template-columns: 35rem 95.2rem;
+}
+
+.column {
+    margin-right: 6rem;
+}
+
+aside {
+    background: var(--color-01);
+    
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+    border: solid 2px black;
+    padding: 3rem;
+}
+
+.folders {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card {
+    
+}
+
+footer {
+    text-align: center;
+    margin-top: -2rem;
+}
