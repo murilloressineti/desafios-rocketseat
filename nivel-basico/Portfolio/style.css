@@ -21,7 +21,7 @@
     --color-bg: #22212C;
 }
 
-body {
+body{
     color: var(--color-02);
     background-color: var(--color-bg);
 
@@ -30,9 +30,18 @@ body {
     padding: 4rem 4rem 0rem 4rem;
 }
 
-#app {
-    border: 2px solid red;
+h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+}
 
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+#app {
     display: grid;
     grid-template-columns: 35rem 95.2rem;
 }
@@ -46,7 +55,6 @@ aside {
     
     border-radius: 2rem;
     margin-bottom: 3rem;
-    border: solid 2px black;
     padding: 3rem;
 }
 
@@ -55,11 +63,226 @@ aside {
     grid-template-columns: 1fr 1fr;
 }
 
-.card {
+figure {
+    background: var(--color-01);
+    
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+    padding: 3rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-1 {
+    margin-right: 3rem;
+}
+
+.profile {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.profile img {
+    width: 12.8rem;
+    height: 12.8rem;
+
+    border-radius: 12.8rem;
+    border: 0.2rem solid var(--color-05);
+
+    margin-bottom: 3rem;
+}
+
+.profile img:hover {
+    filter: brightness(0.7);
+    cursor: pointer;
+}
+
+.socials > a {
+    color: var(--color-02);
+    text-decoration: none;
+
+    display: flex;
+}
+
+.socials > a:hover {
+    color: var(--color-03);
+}
+
+.socials img {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    transition: 300ms ease-in-out;
+}
+
+.socials img:hover {
+    background: var(--color-03);
+    border-radius: 50%;
+    padding: 0.3rem;
+    transform: scale(1.1);
+}
+
+.techs-description {
+    display: grid;
+    grid-template-columns: repeat(3, 7rem);
+    gap: 1.5rem;
+}
+
+.techs p {
+    color: var(--color-base-black);
+    background: var(--color-03);
+
+    height: 2.4rem;
+
+    border-radius: 3rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.techs p:hover {
+    transition: 300ms ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+ul {
+    margin-left: 4rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+li {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.sub-li {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.projects p:hover {
+    cursor: pointer;
+    color: var(--color-03);
+}
+
+.folder {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.folder h4 {
+    margin-left: 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.stars {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.stars p {
+    margin-left: 0.2rem;
+}
+
+
+.js {
+    margin-left: 25rem;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.posts h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.profile-two {
+    display: grid;
+    grid-template-columns: 13rem 1fr;
+}
+
+.profile-two img {
+    width: 12.8rem;
+    height: 12.8rem;
+
+    border-radius: 12.8rem;
+}
+
+.profile-two img:hover {
+    filter: brightness(0.7);
+    cursor: pointer;
+}
+
+.profile-two-text {
+    margin-left: 2rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tittle-profile-two h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
     
 }
 
+.tittle-profile-two {
+    margin-bottom: 2.8rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+
+}
+
+.hashtahs {
+    display: flex;
+    gap: 1rem;
+
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.hashtahs p:hover {
+    color: var(--color-03);
+    cursor: pointer;
+}
+
 footer {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+
     text-align: center;
     margin-top: -2rem;
+    margin-bottom: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--color-02);
+}
+
+footer a:hover {
+    color: var(--color-03);
 }
