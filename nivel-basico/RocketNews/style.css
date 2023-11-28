@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'League Spartan', sans-serif;
+
+    --color-base-black: black;
+    --color-base-white: white;
+
+    --color-01: #08C05E;
+    --color-02: #8257E5;
+    --color-03: #A8A8A8;
+    --color-04: #704bc5;
+}
+
+body {
+    background-color: var(--color-base-black);
+    color: var(--color-base-white);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-bottom: 23.7rem;
+    width: 50vw;
+
+    animation-name: downTop;
+    animation-delay: 200ms;
+    animation-duration: 700ms;
+}
+
+h1 {
+    margin-bottom: 9.2rem;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    color: var(--color-01);
+    font-size: 2.4rem;
+    font-weight: 700;
+
+    margin-bottom: 0.85rem;
+}
+
+p {
+    color: var(--color-03);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+
+    margin-bottom: 0.85rem;
+    margin-right: 3.7rem;
+}
+
+p > strong {
+    color: var(--color-base-white);
+    line-height: normal;
+    font-size: 1.76rem;
+}
+
+#my-form {
+    margin-top: 5rem;
+}
+
+fieldset {
+    border: 0px;
+
+    display: flex;
+}
+
+legend {
+    color: var(--color-03);
+
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+
+    margin-bottom: 1.7rem;
+}
+
+.input-wrapper {
+    display: flex;
+    width: 75rem;
+    height: 4.8rem;
+
+    position: absolute;
+
+    border-left: 5px solid var(--color-01);
+}
+
+input {
+    width: 100%;
+
+    color: var(--color-03);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    padding-left: 1.5rem;
+
+    border: 0;
+}
+
+button {
+    background-color: var(--color-02);
+    border: 0;
+
+    width: 48px;
+    height: 48px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-04);
+}
+
+.arrow p {
+    color: var(--color-02);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.9rem;
+
+    margin-top: 9rem;
+}
+
+.arrow p:hover {
+    color: var(--color-04);
+}
+
+.arrow img {
+    margin-left: 0.5rem;
+}
+
+.emphasis {
+    background: url("assets/image.png"), lightgray 50%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+/* KEYFRAMES DAS ANIMAÇÕES */
+
+@keyframes downTop {
+    0% {
+        opacity: 0;
+        transform: translateY(+15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
