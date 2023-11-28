@@ -16,7 +16,7 @@
 
 <br>
 
-## 🚀 Tecnologias
+## 🛠 Tecnologias
 
 Desafios que utilizam as seguintes tecnologias:
 
