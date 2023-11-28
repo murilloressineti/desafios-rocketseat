@@ -1,4 +1,4 @@
-<h1 align="center"> Social Tree </h1>
+<h1 align="center"> RocketNews </h1>
 
 <p align="center">
 Projeto proposto em forma de desafio pela Rocketseat. Meu objetivo foi replicar o projeto utilizando o design feito previamente no Figma.
