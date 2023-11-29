@@ -2,7 +2,7 @@
 
 <p align="center">
 Projeto proposto em forma de desafio pela Rocketseat. Meu objetivo foi replicar o projeto utilizando o design feito previamente no Figma.
-Aprimorei o projeto utilizando a animção DownTop em css ao carregar a página inicialmente.
+Aprimorei o projeto utilizando a animação DownTop em css ao carregar a página inicialmente.
 </p>
 
 <br>
